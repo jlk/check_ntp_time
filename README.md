@@ -24,6 +24,9 @@ check_ntp_time.pl <-H ntpserver> <-w warnlevel> <-c critlevel>
   </tr>
 </table>
 
+Contribute
+----------
+Please see the [Github](https://github.com/jlk/check_ntp_time) page. Happy to accept pull requests! If the module don't do what you want, please explain your use case.
 
 History
 -------
