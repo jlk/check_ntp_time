@@ -7,9 +7,20 @@ Usage
 -----
 check_ntp_time.pl <-H ntpserver> <-w warnlevel> <-c critlevel>
 ###Options:
--H ntpserver   Hostname or IP address of the ntp server
--w seconds     Difference in seconds from the ntpserver clock and the server clock which the plugin will emit a warning alarm - Default = 150 seconds (above or below)
--c seconds     Difference in seconds from the ntpserver clock and the server clock which the plugin will emit a critical alarm - Default = 300 seconds (above or below)
+<table>
+  <tr>
+    <td>-H ntpserver</td>
+    <td>Hostname or IP address of the ntp server</td>
+  </tr>
+  <tr>
+    <td>-w seconds</td>
+    <td>Difference in seconds from the ntpserver clock and the server clock which the plugin will emit a warning alarm - Default = 150 seconds (above or below)</td>
+  </tr>
+  <tr>
+    <td>-c seconds</td>
+    <td>Difference in seconds from the ntpserver clock and the server clock which the plugin will emit a critical alarm - Default = 300 seconds (above or below)</td>
+  </tr>
+</table>
 
 
 History
