@@ -83,7 +83,7 @@ else
 }
 
 # Check if NTP Server is alive
-my $checkalive = 'ping ' . $ntpserver . ' -n 1 -m 2 | grep "packet loss" | awk ' . "'{print \$7}' | tr -d '%'";
+my $checkalive = 'ping ' . $ntpserver . ' -n 1 | grep "packet loss" | awk ' . "'{print \$7}' | tr -d '%'";
 my $hostalive = `$checkalive`;
 if($hostalive>0)
 {
