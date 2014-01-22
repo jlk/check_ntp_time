@@ -3,8 +3,9 @@
 #
 # Program Name: check_ntp_time.pl
 # Purpose:	Check if the server clock is in syncronization with the NTP server clock
-# Date: 	15/09/2011
-# Author:	Antonio Fernando Evangelista
+# Date: 	22/01/2014
+# Author:	Antonio Fernando Evangelista, John Kinsella
+# Website:      https://github.com/jlk/check_ntp_time
 #
 #--------------------------------------------------------------------------------------------------------------
 
