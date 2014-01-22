@@ -5,6 +5,8 @@ check_ntp_time
 
 Usage
 -----
+This script is intended to be called via a Nagios (or Nagios-based) monitoring system, probably via NRPE.
+
 check_ntp_time.pl <-H ntpserver> <-w warnlevel> <-c critlevel>
 ###Options:
 <table>
